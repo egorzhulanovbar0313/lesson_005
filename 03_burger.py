@@ -16,3 +16,16 @@
 # Если не хватает инградиентов - создать соответствующие функции в модуле my_burger
 
 # TODO здесь ваш код
+import my_burger as mb
+
+double_cheeseburger_recipe = []
+mb.add_buns(double_cheeseburger_recipe)
+mb.add_cheese(double_cheeseburger_recipe)
+mb.add_beef(double_cheeseburger_recipe)
+mb.add_cheese(double_cheeseburger_recipe)
+mb.add_beef(double_cheeseburger_recipe)
+mb.add_pickle(double_cheeseburger_recipe)
+mb.add_tomato(double_cheeseburger_recipe)
+mb.add_mayo(double_cheeseburger_recipe)
+
+print(f"Рецепт двойного чизбургера:\n{', '.join(double_cheeseburger_recipe)}")
