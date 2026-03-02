@@ -22,3 +22,11 @@ def add_mayo(recipe):
     recipe.append('Майонез')
     print('А теперь добавим майонез.')
 
+def add_bacon(recipe):
+    recipe.append('Бекон')
+    print('А теперь добавим бекон.')
+
+def add_onion(recipe):
+    recipe.append('Лук')
+    print('А теперь добавим лук.')
+
