@@ -19,7 +19,16 @@
 # Приправить своей фантазией по вкусу (коты? коровы? люди? трактор? что придумается)
 
 # TODO здесь ваш код
+import simple_draw as sd
+from draw_modules.rainbow import draw_rainbow
+from draw_modules.tree import draw_tree
 
+sd.resolution = (1280, 600)
+
+draw_rainbow()
+draw_tree()
+
+sd.pause()
 # Усложненное задание (делать по желанию)
 # Анимировать картину.
 # Пусть слева идет снегопад, радуга переливается цветами, смайлик моргает, солнце крутит лучами, етс.
