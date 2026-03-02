@@ -22,11 +22,13 @@
 import simple_draw as sd
 from draw_modules.rainbow import draw_rainbow
 from draw_modules.tree import draw_tree
+from draw_modules.house import draw_house
 
 sd.resolution = (1280, 600)
 
 draw_rainbow()
 draw_tree()
+draw_house()
 
 sd.pause()
 # Усложненное задание (делать по желанию)

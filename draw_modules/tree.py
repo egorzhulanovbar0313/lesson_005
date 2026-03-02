@@ -2,7 +2,7 @@ import simple_draw as sd
 
 def draw_tree():
     def branches(start_point, angle, length, delta, color):
-        if length < 10:
+        if length < 5:
             return
         elif 10 < length < 20:
             color = sd.COLOR_GREEN
@@ -13,4 +13,4 @@ def draw_tree():
         branches(start_point=next_point, angle=angle - delta, length=next_length, delta=delta, color=color)
         branches(start_point=next_point, angle=angle + delta, length=next_length, delta=delta, color=color)
 
-    branches(start_point=sd.get_point(950, 0), angle=90, length=100, delta = 30, color=sd.COLOR_DARK_ORANGE)
+    branches(start_point=sd.get_point(1000, 0), angle=90, length=70, delta = 30, color=sd.COLOR_DARK_ORANGE)
